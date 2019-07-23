@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.WebLayer", "5.WebLayer", "{771120AB-DE9B-4510-BD2F-305E06766F3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.ServiceLayer", "4.ServiceLayer", "{F50E7F5A-3B74-4465-AD30-4C869D591D42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.BusinessLayer", "3.BusinessLayer", "{2E587B2C-94EA-4AF3-8FDA-BD9B39277B30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.DataLayer", "2.DataLayer", "{B7E6957E-3E96-4ECF-A015-B287023565D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.DataModel", "1.DataModel", "{8CC5B866-5992-4738-88BD-741F52177C65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{844C6481-EE6E-41F8-97BD-0FCAA9BEEC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDR.Web", "..\TDR.Web\TDR.Web.csproj", "{F33C9439-935B-43EB-AF88-86BE80402794}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F33C9439-935B-43EB-AF88-86BE80402794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33C9439-935B-43EB-AF88-86BE80402794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33C9439-935B-43EB-AF88-86BE80402794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33C9439-935B-43EB-AF88-86BE80402794}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F33C9439-935B-43EB-AF88-86BE80402794} = {771120AB-DE9B-4510-BD2F-305E06766F3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1509557E-62A2-444B-A620-0E855D046B7D}
+	EndGlobalSection
+EndGlobal

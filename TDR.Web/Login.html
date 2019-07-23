@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sistema TDR</title>
+    
+    <link href="Content/Font/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Login/Css/login.css" rel="stylesheet" />
+    <link href="Content/Login/Css/MaquinaEscribir.css" rel="stylesheet" />
+    <script language="JavaScript">
+        function window_onload() {
+            var x = numeroAleatorio(0, 2);
+            var img = x + ".jpg";
+            var fondobg = document.getElementById("fondo");
+            //var fondolg = document.getElementById("fondologin");
+            //fondobg.style.color = "red";
+            //fondobg.style.fontFamily = "Arial";
+
+            var imagenes = ['https://img.peru21.pe/files/ec_article_multimedia_gallery/uploads/2018/03/06/5a9ed001db590.jpeg',
+                'https://www.tvperu.gob.pe/sites/default/files/000279053w.jpg',
+                'https://2.bp.blogspot.com/-GCWhEUqhVVY/XTV1N8GJjyI/AAAAAAAAwvo/ZOoXfcupfrs-zqeY4gB5ycW_v-4j2YxZgCLcBGAs/w851-h444-c/179247-minedu-inicia-inscripciones-vii-concurso-nacional-buenas-practicas-docentes.jpg'
+            ]
+
+            fondobg.style.backgroundImage = "url('" +imagenes[x]+"')";
+            //fondobg.style.backgroundImage = "url('https://img.peru21.pe/files/ec_article_multimedia_gallery/uploads/2018/03/06/5a9ed001db590.jpeg')";
+            //fondobg.style.backgroundImage = "url('https://www.tvperu.gob.pe/sites/default/files/000279053w.jpg')";
+            //fondobg.style.backgroundImage = "url('https://2.bp.blogspot.com/-GCWhEUqhVVY/XTV1N8GJjyI/AAAAAAAAwvo/ZOoXfcupfrs-zqeY4gB5ycW_v-4j2YxZgCLcBGAs/w851-h444-c/179247-minedu-inicia-inscripciones-vii-concurso-nacional-buenas-practicas-docentes.jpg')";
+
+            //fondobg.style.backgroundImage = "url('https://www.expreso.com.pe/wp-content/uploads/2018/09/7-1-2-8.jpg')";
+             //fondobg.style.backgroundImage = "url('http://www.albergue.somee.com/images/7.jpg')";
+           // fondobg.style.backgroundImage = "url('http://www.albergue.somee.com/images/" + img + "')";
+            //fondolg.style.backgroundImage = "url('http://www.albergue.somee.com/images/" + img + "')";
+
+        }
+        function numeroAleatorio(min, max) {
+            return Math.round(Math.random() * (max - min) + min);
+        }
+
+
+    </script>
+</head>
+
+<body onload="window_onload();">
+    <!--CABECERA-->
+    <div class="navbar navbar-default navbar-s ">
+        <div class="container">
+            <div class=" col-md-12 col-sm-12">
+                <!--<H1 style="color:azure;font-size:large;">ERP INSPIRA</H1>
+                <img src="images/inspira.png" class="img-responsive" width="10%" style="border:1px solid red;" />-->
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!--CUERPO-->
+    <div id="container">
+        <!-- Fondo Rotativo -->
+        <div id="fondo" class="fondo fondos--is-img img-fondo-temp"></div>
+        <!--TITULO SISTEMA-->
+
+        <div class="container">
+            <div class=" col-md-12 col-sm-12">
+                <!--<H1 style="color:azure;font-size:large;">ERP TDR</H1>-->
+                <H1 style="color:azure;font-size:large;"></H1>
+                <img src="Content/Login/Images/logo.png" width="25%" style="border:1px solid red;opacity:0.5;" />
+            </div>
+        </div>
+
+
+        <div class="container">
+            <!--LOGIN-->
+
+            <div class="row" id="login">
+
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                    <br />
+                    <br />
+                    <!--<P style="color:#ffb87f;font-size:25px;font-weight:bold;font-style:italic">Ponle corazon y alegria ala vida...</P>-->
+                    <h1> TDR, <span class="message" id="message"></span></h1>
+
+                    <!--<section class="main-section">
+                        <div class="message-container">
+                            <h1> Inspira, <span class="message" id="message"></span></h1>
+                        </div>
+                    </section>-->
+
+
+
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4" id="loginform">
+                    <div class="panel panel-default" style="background-color: #f9f5f5;">
+                        <div class="panel-heading">
+                            <i class="fa fa-list"></i>&nbsp;Login
+                        </div>
+                        <div class="panel-body ">
+                            <div style="margin-bottom: 20px" class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" placeholder="usuario" id="username" class="form-control" required="required" />
+                            </div>
+
+                            <div style="margin-bottom: 20px" class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="password" placeholder="password" id="password" class="form-control" required="required" />
+                            </div>
+
+
+                            <input id="botonlogin" class="btn btn-lg btn-block" type="button" style="background-color: #2f62b1; color: #fff; border-color: #508ff0;" value="Iniciar Sesión">
+                            <div id="errorLogeo" style="color: red; width: 100%; text-align: center; font-size: 10px"></div>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <br />
+    <br />
+    
+    <!--PIE-->
+
+    <div id="footer">
+
+        <div class="container">
+            <div class="footer-info col-md-8 col-sm-8">
+                <p class="muted credit" style="color:azure;">
+                    ERP SISTDR<br><br>
+                    Central Telefónica: 615-5800 Anexo: 26181
+                    <br />
+                    Direc. Calle el Comercio 193
+                    <br />
+                    San Borja,Lima 41 Perú<br>
+                    &nbsp;<br />
+                </p>
+            </div>
+
+            <div class="copyright col-md-4 col-sm-4">
+                <p style="color:aquamarine;">Copyright © 2019 - Departamento UPP</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script src="Scripts/Login/MaquinaEscribir.js"></script>
+    <script src="Scripts/Login/jsLogin.js"></script>
+    <script type="text/javascript">
+        //var vista = Login.Cargar();
+    </script>
+
+</body>
+</html>
