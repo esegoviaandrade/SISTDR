@@ -94,6 +94,7 @@ D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\Antlr3.Runtime.dll
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\Microsoft.Web.Infrastructure.dll
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\Newtonsoft.Json.dll
+D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\Recaptcha.Web.dll
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\System.Web.Helpers.dll
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\System.Web.Mvc.dll
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\System.Web.Optimization.dll

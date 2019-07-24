@@ -46,6 +46,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Recaptcha.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=171a6ec5fa4b1644, processorArchitecture=MSIL">
+      <HintPath>..\TDR\packages\RecaptchaNet.2.1.0\lib\net45\Recaptcha.Web.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -142,6 +145,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Login.html" />
+    <Content Include="RecaptchaNet.Readme.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Font\fonts\fontawesome-webfont.eot" />

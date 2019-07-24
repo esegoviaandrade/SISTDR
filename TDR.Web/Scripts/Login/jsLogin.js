@@ -1,6 +1,10 @@
 ﻿var Login = (function() {
     var _xResults = [];
 
+    var dom = window.document;
+    dom.getElementById("botonlogin").addEventListener("click", function () { fnConverse(); }, false);
+
+
     var fnCargar = function ()
     {
         var dom = window.document;
@@ -88,7 +92,7 @@
                 }
             }
         }
-        xhr.open("GET", "/Inicio/fnConverse?texto=" + _xPass + "", true);
+        xhr.open("GET", "/Home/fnConverse?texto=" + _xPass + "", true);
         xhr.send();
     }
 

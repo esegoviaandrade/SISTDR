@@ -1,0 +1,5 @@
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataLayer\bin\Debug\TDR.DataLayer.dll
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataLayer\bin\Debug\TDR.DataLayer.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataLayer\obj\Debug\TDR.DataLayer.csproj.CoreCompileInputs.cache
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataLayer\obj\Debug\TDR.DataLayer.dll
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataLayer\obj\Debug\TDR.DataLayer.pdb

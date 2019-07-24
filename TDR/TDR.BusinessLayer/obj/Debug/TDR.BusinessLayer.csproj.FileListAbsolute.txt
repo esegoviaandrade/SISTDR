@@ -1,0 +1,5 @@
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\bin\Debug\TDR.BusinessLayer.dll
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\bin\Debug\TDR.BusinessLayer.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.dll
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.pdb
