@@ -3,3 +3,9 @@ D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\bin\Debug\TDR.BusinessLayer.pdb
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.csproj.CoreCompileInputs.cache
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.dll
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\bin\Debug\TDR.DataLayer.dll
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\bin\Debug\TDR.DataModel.dll
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\bin\Debug\TDR.DataLayer.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\bin\Debug\TDR.DataModel.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.csprojAssemblyReference.cache
+D:\_SISTEMA_TDR\SISTDR\TDR\TDR.BusinessLayer\obj\Debug\TDR.BusinessLayer.csproj.CopyComplete

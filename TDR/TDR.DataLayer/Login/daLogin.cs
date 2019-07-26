@@ -16,7 +16,7 @@ namespace TDR.DataLayer.Login
             string _xRpta = "";
             using (SqlConnection cn = new SqlConnection(_xCadenaConexion))
             {
-                SqlCommand commando = new SqlCommand("uspValidarLogin", cn);
+                SqlCommand commando = new SqlCommand("spValidarLogin", cn);
                 commando.CommandType = CommandType.StoredProcedure;
 
                 SqlParameter p1 = commando.Parameters.Add("@cUsuario", SqlDbType.VarChar);

@@ -1,11 +1,6 @@
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\bin\Debug\TDR.DataModel.dll
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\bin\Debug\TDR.DataModel.pdb
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\TDR.DataModel.csprojAssemblyReference.cache
-D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\TDR.DataModel_MarkupCompile.cache
-D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\TDR.DataModel_MarkupCompile.lref
-D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\Themes\Generic.baml
-D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\TDR.DataModel.g.resources
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\TDR.DataModel.Properties.Resources.resources
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\TDR.DataModel.csproj.GenerateResource.cache
 D:\_SISTEMA_TDR\SISTDR\TDR\TDR.DataModel\obj\Debug\TDR.DataModel.csproj.CoreCompileInputs.cache

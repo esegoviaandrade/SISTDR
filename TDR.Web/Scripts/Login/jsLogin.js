@@ -5,6 +5,7 @@
 
     var fnCargar = function ()
     {
+        debugger
         var dom = window.document;
         dom.getElementById("botonlogin").addEventListener("click", function () { fnConverse(); }, false);
         dom.getElementById("password").addEventListener("keyup", function (e){ if (e.keyCode === 13) fnConverse();}, false);
@@ -72,7 +73,7 @@
                 }
             }
         }
-        xhr.open("GET", "/Inicio/fnValidar?validacion=" + val + "", true);
+        xhr.open("GET", "/Home/fnValidar?validacion=" + val + "", true);
         xhr.send();
     }
 
@@ -86,7 +87,7 @@
                             "                </div> " +
                              "               <div class='modal-body'> " +
                               "                <p>" + mensaje + "</p> " +
-                               "             </div> <img style='margin:5px 10px;' src='../Content/CSMImages/loaders/load6.gif' alt='' /> " +
+                               "             </div> <img style='margin:5px 10px;' src='../Content/Login/Images/load6.gif' alt='' /> " +
                                    "       </div> " +
                                     "    </div> " +
                                      " </div>";

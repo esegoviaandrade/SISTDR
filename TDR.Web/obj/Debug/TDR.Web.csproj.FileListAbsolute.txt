@@ -125,3 +125,9 @@ D:\_SISTEMA_TDR\SISTDR\TDR.Web\obj\Debug\TDR.Web.csproj.CoreCompileInputs.cache
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\obj\Debug\TDR.Web.csproj.CopyComplete
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\obj\Debug\TDR.Web.dll
 D:\_SISTEMA_TDR\SISTDR\TDR.Web\obj\Debug\TDR.Web.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\TDR.BusinessLayer.dll
+D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\TDR.DataLayer.dll
+D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\TDR.DataModel.dll
+D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\TDR.BusinessLayer.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\TDR.DataLayer.pdb
+D:\_SISTEMA_TDR\SISTDR\TDR.Web\bin\TDR.DataModel.pdb
