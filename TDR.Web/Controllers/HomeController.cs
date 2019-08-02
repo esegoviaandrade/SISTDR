@@ -38,7 +38,7 @@ namespace TDR.Web.Controllers
             beAlfabeto alf = new beAlfabeto();
             return Task.Run(() => alf.fnConvert(listChar));
         }
-
+        [HttpGet]
         public async Task<string> fnValidar(string validacion)
         {
 
@@ -48,7 +48,7 @@ namespace TDR.Web.Controllers
             string _xResponse = "";
             _xVal = validacion.Split('¦');
             _xRpta = await _xOda.validarLogin(_xVal[0], _xVal[1]).ConfigureAwait(false);
-            if (!string.IsNullOrWhiteSpace(_xRpta)) _xResponse = "1¦window.location.href = 'Entorno.html'*" + _xVal[0].ToLower() + "ƒ" + _xRpta + "";
+            if (!string.IsNullOrWhiteSpace(_xRpta)) _xResponse = "1¦Entorno.html¦" + _xRpta + "";
             else _xResponse = "0¦***datos inválidos***";
 
             return _xResponse;

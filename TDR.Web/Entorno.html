@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Entorno_Inicio</title>
+    <link href="Content/Principal/cssEntorno_Inicio.css" rel="stylesheet" />
+    <link href="Content/Principal/style.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Font/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!--<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>-->
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav">
+                    <li><a><i class="fa fa-user" title="usuario"></i>&nbsp;<label id="lblUs"></label></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="padding: 0px;">
+                    <li><a id="logOut" href="Login.html" class="id_IS_ARCH"><i class="fa fa-sign-out" title="Salir"></i></a></li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="container" oncontextmenu="return false">
+        <input type="hidden" id="hdUs" />
+        <div class="panel ">
+            <div class="panel-body">
+                <div id="sist">
+                    <div id="sist_modulos" style="display: block"></div>
+                </div>
+            </div>
+
+
+            <div id="opxMod" style="display: none"></div>
+            <div class="panel panel-default" id="FramePanel" style="display: none">
+                <div class="panel-heading" id="fpruta"></div>
+                <div class="panel-body">
+                    <div id="Frame"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div id="frmControl">
+        <dialog id="dialogfrmControl" style="width: 65%; position: fixed; top: 40%; display:none" class="DialogSub">
+            <div class="title" id="numReg"></div>
+
+            <div class="form-inline window">
+
+                <div class="form-group">
+                    <label for="uCrea">User Crea:</label>
+                    <input type="text" class="form-control" id="uCrea" disabled="disabled">
+                </div>
+                <div class="form-group">
+                    <label for="fCrea">Fec Crea:</label>
+                    <input type="datetime" class="form-control" id="fCrea" disabled="disabled">
+                </div>
+                <div class="form-group">
+                    <label for="uMod">User Mod:</label>
+                    <input type="text" class="form-control" id="uMod" disabled="disabled">
+                </div>
+                <div class="form-group">
+                    <label for="fMod">Fec. Mod:</label>
+                    <input type="datetime" class="form-control" id="fMod" disabled="disabled">
+                </div>
+                <hr />
+                <div class="btn-group">
+                    <button type="button" id="btnSalir" class="btn btn-primary">Salir</button>
+                </div>
+            </div>
+
+
+        </dialog>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="footer-info col-md-9 col-sm-3">
+                <br />
+                <p class="muted credit">
+                    ERP SISTDR
+                    Central Telefónica: 615-5800 Anexo: 26181
+                    Direc. Calle el Comercio 193
+                    San Borja, Lima 41 Perú<br>
+                </p>
+                <a id="lnk" href=""></a>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/Principal/jsEntorno_Inicio.js"></script>
+    <script src="Scripts/Principal/jsTable.js"></script>
+    <script type="text/javascript">
+        var _xEntorno = new CrearEntorno(window);
+        var gEntity = "";
+        _xEntorno.CargarAccesos();
+
+    </script>
+</body>
+</html>

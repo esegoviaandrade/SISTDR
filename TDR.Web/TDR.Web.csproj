@@ -141,6 +141,9 @@
     <Content Include="Content\Font\HELP-US-OUT.txt" />
     <Content Include="Content\Login\Images\load6.gif" />
     <Content Include="Content\Login\Images\logo.png" />
+    <Content Include="Content\Principal\cssEntorno_Inicio.css" />
+    <Content Include="Content\Principal\style.css" />
+    <Content Include="Entorno.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -193,6 +196,8 @@
     <Content Include="Scripts\Login\jsLogin.js" />
     <Content Include="Scripts\Login\MaquinaEscribir.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Principal\jsEntorno_Inicio.js" />
+    <Content Include="Scripts\Principal\jsTable.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

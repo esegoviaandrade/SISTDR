@@ -5,13 +5,15 @@
 
     var fnCargar = function ()
     {
-        debugger
         var dom = window.document;
         dom.getElementById("botonlogin").addEventListener("click", function () { fnConverse(); }, false);
         dom.getElementById("password").addEventListener("keyup", function (e){ if (e.keyCode === 13) fnConverse();}, false);
         dom.getElementById("username").focus();
+        dom.getElementById("errorLogeo").style.display = "none";
 
-        window.history.go(1);
+
+
+        //window.history.go(1);
     }
 
 
@@ -50,11 +52,22 @@
                 Abrir_Dialog_Mensaje_Cargando_Responsive('Enviando datos', 'Cargando...');
             } else {
                 if (xhr.readyState === 4) {
-                    if (xhr.status === 200) {
-                        Cerrar_Dialog_Mensaje_Cargando_Responsive();
+                    if (xhr.status === 200) {                       
+                        Cerrar_Dialog_Mensaje_Cargando_Responsive();                        
                         var data = xhr.responseText;
+                        var _xValor = data.split('¦');
+                        if (_xValor[0] ==="0") {
+                            document.getElementById("errorLogeo").style.display = "block";
+                            document.getElementById("errorLogeo").innerHTML = _xValor[1];
+                        }
+                        if (_xValor[0] === "1") {
+                            //window.location.href = 'Entorno.html';
+                            window.location.href = _xValor[1];
+                        }
 
-                        //var _xValor = data.split('*');
+
+
+                        
                         //if (_xValor[0].split('¦')[0] === "1") {
                         //    eval(_xValor[0].split('¦')[1]);
                         //    var _xContLS = _xValor[1].split('ƒ')[0];
